@@ -7,6 +7,11 @@ button{
      background-color:#ffeaf7;
 }
 
-input[type=text]:focus {
-    border: 3px solid #555;
+input[type=text] {
+    border: 2px solid pink;
+    border-radius: 4px;
+}
+h1{
+    font-family: 'Arima Madurai', cursive;
+    color:#6d6d6d;
 }
