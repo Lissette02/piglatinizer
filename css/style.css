@@ -1,1 +1,12 @@
+img{
+ width:20px;
+}
+button{
+     display: inline-block;
+     border-radius: 100px;
+     background-color:#ffeaf7;
+}
 
+input[type=text]:focus {
+    border: 3px solid #555;
+}
