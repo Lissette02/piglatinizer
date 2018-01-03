@@ -7,6 +7,11 @@ button{
      background-color:#ffeaf7;
 }
 
+button:hover {
+    box-shadow: 0px 0px 100px #00ffae;
+    color:#00ffae;;
+}
+
 input[type=text] {
     border: 2px solid pink;
     border-radius: 4px;
