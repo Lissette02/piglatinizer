@@ -1,15 +1,20 @@
+body {
+   background-image: url("https://www.brewsterwallcovering.com/data/default/images/catalog/original/CHR11711-26849.jpg");
+   
+}
+
 img{
  width:20px;
 }
 button{
      display: inline-block;
      border-radius: 100px;
-     background-color:#ffeaf7;
+     background-color:white;
 }
 
 button:hover {
-    box-shadow: 0px 0px 100px #00ffae;
-    color:#00ffae;;
+    box-shadow: 0px 0px 100px #d1ccd0;
+    color:#d1ccd0;;
 }
 
 input[type=text] {
@@ -19,4 +24,9 @@ input[type=text] {
 h1{
     font-family: 'Arima Madurai', cursive;
     color:#6d6d6d;
+}
+
+#message{
+    font-family: 'Arima Madurai', cursive;
+     color:#6d6d6d;
 }
