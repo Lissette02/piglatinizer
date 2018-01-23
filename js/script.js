@@ -8,33 +8,31 @@
 $( document ).ready(function() {
     
     
- $("button").click(function(){ 
+ $("#a").click(function(){ 
    
     sentenceToPigLatin();
 });
 
 
  function sentenceToPigLatin() {
-        console.log("Im here");
- 	    var message=$("input").val();
+ 	    var message=$("#input1").val();
  	    var split= message.split(' ');
  	 $("#message").empty();
  	 for(var count=0; count<split.length; count=count+1){
  	   $("#message").append(ay(split[count]));
  	    
-//create an vowel array 
  
    }
 }
     
 function ay(word){
-var lowerWord = word.toLowerCase();
- var fl=word.slice(0,1);
- var ll=word.slice(1,word.length);
- if(fl==="a"||fl==="e"||fl==="i"||fl==="o"||fl==="u"){
-  return(word +"yay ")
- }else{
-  return(ll+fl+ "ay ")
+  var lowerWord = word.toLowerCase();
+  var fl=word.slice(0,1);
+  var ll=word.slice(1,word.length);
+    if(fl==="a"||fl==="e"||fl==="i"||fl==="o"||fl==="u"){
+      return(word +"yay ")
+    }else{
+      return(ll+fl+ "ay ")
  }
 
  
@@ -43,7 +41,12 @@ var lowerWord = word.toLowerCase();
 
 
       
-   
+      
+
+
+
+ 
+
 
 });
 
