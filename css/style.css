@@ -23,7 +23,20 @@ button:hover {
 input[type=text] {
     border: 2px solid pink;
     border-radius: 4px;
+    width:500px;
 }
+
+#input{
+          
+          margin-left:350px;
+
+}
+h1{
+     margin-top: 200px;
+     margin-left:350px;
+}
+
+
 h1{
     font-family: 'Arima Madurai', cursive;
     color:#6d6d6d;
